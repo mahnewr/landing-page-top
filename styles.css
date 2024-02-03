@@ -11,6 +11,20 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* Header */
+
+header {
+  background-color: var(--dark-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 200px 0 200px;
+}
+
+.logo-img {
+  height: 50px;
+  aspect-ratio: 1;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -28,39 +42,51 @@ nav {
   align-items: center;
 }
 
-header {
-  background-color: var(--dark-color);
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 100px 0 100px;
+.nav-item {
+  color: var(--light-color);
 }
+
+/* About section */
 
 .about {
   background-color: var(--dark-color);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 80px 100px;
-}
-
-.about-details {
-  width: 40%;
-}
-
-.nav-item {
-  color: var(--light-color);
+  padding: 80px 200px;
 }
 
 .hero-title {
   color: var(--main-font-color);
   font-size: 48px;
   font-weight: 800;
+  width: clamp(200px, 80%, 500px);
 }
 
 .hero-descr {
   color: var(--light-color);
   font-size: 18px;
+  width: clamp(200px, 80%, 500px);
 }
+
+.signup-top {
+  color: var(--main-font-color);
+  background-color: var(--blue-color);
+  font-size: 18px;
+  font-weight: 800;
+  width: 125px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+
+.hero-img {
+  height: 250px;
+  width: 400px;
+}
+
+/* Services section */
 
 .services-title {
   display: flex;
@@ -80,28 +106,6 @@ header {
   width: 170px;
   text-align: center;
   padding: 8px;
-}
-
-.signup-top {
-  color: var(--main-font-color);
-  background-color: var(--blue-color);
-  font-size: 18px;
-  font-weight: 800;
-  width: 125px;
-  height: 36px;
-  border: none;
-  border-radius: 5px;
-  margin-top: 16px;
-}
-
-.logo-img {
-  height: 50px;
-  aspect-ratio: 1;
-}
-
-.hero-img {
-  height: 250px;
-  width: 400px;
 }
 
 .service-img {
@@ -132,12 +136,18 @@ header {
   align-items: center;
 }
 
+/* Testimonials section */
+
 .testimonials {
   background-color: var(--light-color);
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding: 100px 180px;
+  padding: 150px 180px;
+}
+
+.testimonial-container {
+  padding: 0 180px;
 }
 
 .testimonial-content {
@@ -157,11 +167,13 @@ header {
   font-weight: 800;
   color: var(--dark-color);
   align-self: right;
-  padding-right: 40px;
+  padding: 4px 40px 0 0;
 }
 
+/* CTA section */
+
 .cta {
-  padding: 100px;
+  padding: 100px 200px;
 }
 
 .cta-content-container {
