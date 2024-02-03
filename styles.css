@@ -131,3 +131,31 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+
+.testimonials {
+  background-color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px 180px;
+}
+
+.testimonial-content {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: var(--dark-color);
+}
+
+.testimonial-user-container {
+  display: flex;
+  justify-content: right;
+}
+
+.testimonial-user {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--dark-color);
+  align-self: right;
+  padding-right: 40px;
+}
