@@ -82,13 +82,13 @@ header {
   padding: 8px;
 }
 
-.signup {
+.signup-top {
   color: var(--main-font-color);
   background-color: var(--blue-color);
   font-size: 18px;
   font-weight: 800;
   width: 125px;
-  height: 35px;
+  height: 36px;
   border: none;
   border-radius: 5px;
   margin-top: 16px;
@@ -158,4 +158,38 @@ header {
   color: var(--dark-color);
   align-self: right;
   padding-right: 40px;
+}
+
+.cta {
+  padding: 100px;
+}
+
+.cta-content-container {
+  background-color: var(--blue-color);
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.cta-heading {
+  font-size: 24px;
+  color: var(--main-font-color);
+}
+
+.cta-subheading {
+  color: var(--light-color);
+  padding-top: 4px;
+}
+
+.signup-bottom {
+  color: var(--main-font-color);
+  background-color: var(--blue-color);
+  font-size: 18px;
+  font-weight: 800;
+  width: 125px;
+  height: 36px;
+  border: 2px solid var(--main-font-color);
+  border-radius: 5px;
+  margin-top: 16px;
 }
