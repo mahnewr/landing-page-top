@@ -1,7 +1,7 @@
 # Landing Page (The Odin Project)
 
 My solution to the Landing Page project in The Odin Project Foundations course:<br>
-https://www.theodinproject.com/lessons/foundations-landing-page<br><br>
+https://www.theodinproject.com/lessons/foundations-landing-page
 
 # Link to the live website:
 
